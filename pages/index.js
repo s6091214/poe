@@ -1,13 +1,8 @@
-// import Head from 'next/head'
-// import Image from 'next/image'
 import data from "../public/task.json";
-import { useBoolean } from "@chakra-ui/react";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const { task } = data;
-  const [active, setActive] = useBoolean();
-
+  
   return (
     <div className={"flex justify-center flex-col items-center"}>
       <div className="py-4">
@@ -23,25 +18,41 @@ export default function Home() {
                   {title}
                 </h1>
 
-                {content.map((item, idx) => {
-                  return (
-                    <div className="flex items-center" key={idx}>
-                      <span>{`${idx + 1}.`}</span>
-                      <input
-                        className="mx-2"
-                        type="checkbox"
-                        name={`${title}_${idx}`}
-                        id={`${title}_${idx}`}
-                      />
-                      <label
-                        className="text-left text-xl cursor-pointer"
-                        for={`${title}_${idx}`}
+                {content.length > 0 &&
+                  content?.map((item, idx) => {
+                    return (
+                      <div
+                        data-active={"active_" + idx}
+                        className={`flex items-center`}
+                        key={idx}
                       >
-                        {item}
-                      </label>
-                    </div>
-                  );
-                })}
+                        <span>{`${idx + 1}.`}</span>
+                        <input
+                          className="mx-2"
+                          type="checkbox"
+                          name={`${title}_${idx}`}
+                          id={`${title}_${idx}`}
+                          onChange={(e) => {
+                            if (e.target.checked) {
+                              e.target.labels[0].style.opacity = 0.2;
+                              e.target.labels[0].style.textDecorationLine =
+                                "line-through";
+                            } else {
+                              e.target.labels[0].style.opacity = 1;
+                              e.target.labels[0].style.textDecorationLine =
+                                "none";
+                            }
+                          }}
+                        />
+                        <label
+                          className="text-left text-xl cursor-pointer"
+                          htmlFor={`${title}_${idx}`}
+                        >
+                          {item}
+                        </label>
+                      </div>
+                    );
+                  })}
               </div>
             );
           })}
