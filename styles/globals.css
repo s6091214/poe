@@ -25,6 +25,11 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: black
+      url("https://twwebcdnpoe-a.akamaihd.net/error/error_files/layout/kalandra-bg.jpg")
+      no-repeat top center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
   }
 }
