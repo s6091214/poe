@@ -2,12 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: pop-gothic-cjktc;
+  src: url("https://cdn.jsdelivr.net/gh/max32002/pop-gothic@2.141/webfont/CJK%20TC/PopGothicCjkTc-Regular.woff2") format("woff2");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: pop-gothic-cjktc;
+  //font-family: Firebug, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  //Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {

@@ -2,7 +2,7 @@ import data from "../public/task.json";
 
 export default function Home() {
   const { task } = data;
-  
+
   return (
     <div className={"flex justify-center flex-col items-center"}>
       <div className="py-4">
@@ -26,9 +26,9 @@ export default function Home() {
                         className={`flex items-center`}
                         key={idx}
                       >
-                        <span>{`${idx + 1}.`}</span>
+                        <span className="w-8 text-right">{`${idx + 1}.`}</span>
                         <input
-                          className="mx-2"
+                          className="mx-2 "
                           type="checkbox"
                           name={`${title}_${idx}`}
                           id={`${title}_${idx}`}
@@ -45,7 +45,7 @@ export default function Home() {
                           }}
                         />
                         <label
-                          className="text-left text-xl cursor-pointer"
+                          className="text-left text-xl cursor-pointer text-green-500"
                           htmlFor={`${title}_${idx}`}
                         >
                           {item}
