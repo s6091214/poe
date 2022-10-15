@@ -4,7 +4,11 @@ export default function Home() {
   const { task } = data;
 
   return (
-    <div className={"flex justify-center flex-col items-center"}>
+    <div
+      className={
+        "flex justify-center flex-col items-center bg-black bg-fixed bg-cover bg-poe bg-no-repeat pt-16"
+      }
+    >
       <div className="py-4">
         {task.length > 0 &&
           task.map((item, index) => {
