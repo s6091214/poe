@@ -2,6 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
 
-module.exports = nextConfig
+  images: {
+    domains: ['web.poecdn.com'],
+    formats: ['image/avif', 'image/webp'],
+  },
+};
+
+module.exports = nextConfig;

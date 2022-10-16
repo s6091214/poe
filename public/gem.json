@@ -4,230 +4,305 @@
       "label": "覺醒．元素攻擊傷害輔助",
       "value": "Awakened_Elemental_Damage_with_Attacks_Support",
       "type": "攻擊",
-      "img": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "str",
+      "level": "72"
     },
     {
       "label": "覺醒．元素集中輔助",
       "value": "Awakened_Elemental_Focus_Support",
       "type": "攻擊",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "int",
+      "level": "72"
     },
     {
       "label": "覺醒．先祖怒嚎輔助",
       "value": "Awakened_Ancestral_Call_Support",
       "type": "攻擊",
-      "attributes": "str"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "str",
+      "level": "72"
     },
     {
       "label": "覺醒．冰冷穿透輔助",
       "value": "Awakened_Cold_Penetration_Support",
       "type": "攻擊",
-      "attributes": "dex"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "dex",
+      "level": "72"
     },
     {
       "label": "覺醒．分裂輔助",
       "value": "Awakened_Fork_Support",
       "type": "攻擊",
-      "attributes": "dex"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "dex",
+      "level": "72"
     },
     {
       "label": "覺醒．召喚物傷害輔助",
       "value": "Awakened_Minion_Damage_Support",
       "type": "攻擊",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "int",
+      "level": "72"
     },
     {
       "label": "覺醒．和善輔助",
       "value": "Awakened_Generosity_Support",
       "type": "攻擊",
-      "attributes": "str"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "str",
+      "level": "72"
     },
     {
       "label": "覺醒．咒術降臨輔助",
       "value": "Awakened_Hextouch_Support",
       "type": "攻擊",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "int",
+      "level": "72"
     },
     {
       "label": "覺醒．啟蒙輔助",
       "value": "Awakened_Enlighten_Support",
       "type": "攻擊",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "int",
+      "level": "72"
     },
     {
       "label": "覺醒．增加範圍效果輔助",
       "value": "Awakened_Increased_Area_of_Effect_Support",
       "type": "攻擊",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "int",
+      "level": "72"
     },
     {
       "label": "覺醒．增幅輔助",
       "value": "Awakened_Enhance_Support",
       "type": "攻擊",
-      "attributes": "dex"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "dex",
+      "level": "72"
     },
     {
       "label": "覺醒．多重打擊輔助",
       "value": "Awakened_Multistrike_Support",
       "type": "攻擊,近戰,輔助",
-      "attributes": "str"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "str",
+      "level": "72"
     },
     {
       "label": "覺醒．引導時施放輔助",
       "value": "Awakened_Cast_While_Channelling_Support",
       "type": "攻擊",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "int",
+      "level": "72"
     },
     {
       "label": "覺醒．施放迴響輔助",
       "value": "Awakened_Spell_Echo_Support",
       "type": "攻擊",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "int",
+      "level": "72"
     },
     {
       "label": "覺醒．暴擊時施放輔助",
       "value": "Awakened_Cast_On_Critical_Strike_Support",
       "type": "攻擊",
-      "attributes": "dex"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "dex",
+      "level": "72"
     },
     {
       "label": "覺醒．極速苦痛輔助",
       "value": "Awakened_Swift_Affliction_Support",
       "type": "攻擊",
-      "attributes": "dex"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "dex",
+      "level": "72"
     },
     {
       "label": "覺醒．殘虐輔助",
       "value": "Awakened_Brutality_Support",
       "type": "攻擊",
-      "attributes": "str"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "str",
+      "level": "72"
     },
     {
       "label": "覺醒．火焰穿透輔助",
       "value": "Awakened_Fire_Penetration_Support",
       "type": "攻擊",
-      "attributes": "str"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "str",
+      "level": "72"
     },
     {
       "label": "覺醒．無邊異能輔助",
       "value": "Awakened_Unbound_Ailments_Support",
       "type": "攻擊",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "int",
+      "level": "72"
     },
     {
       "label": "覺醒．燃燒傷害輔助",
       "value": "Awakened_Burning_Damage_Support",
       "type": "攻擊",
-      "attributes": "str"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "str",
+      "level": "72"
     },
     {
       "label": "覺醒．猛毒投射物輔助",
       "value": "Awakened_Vicious_Projectiles_Support",
       "type": "攻擊",
-      "attributes": "dex"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "dex",
+      "level": "72"
     },
     {
       "label": "覺醒．秘能爆發輔助",
       "value": "Awakened_Spell_Cascade_Support",
       "type": "攻擊",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "int",
+      "level": "72"
     },
     {
       "label": "覺醒．箭矢新星輔助",
       "value": "Awakened_Arrow_Nova_Support",
       "type": "攻擊",
-      "attributes": "dex"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "dex",
+      "level": "72"
     },
     {
       "label": "覺醒．精準破壞輔助",
       "value": "Awakened_Controlled_Destruction_Support",
       "type": "攻擊",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "int",
+      "level": "72"
     },
     {
       "label": "覺醒．致命異常輔助",
       "value": "Awakened_Deadly_Ailments_Support",
       "type": "攻擊",
-      "attributes": "dex"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "dex",
+      "level": "72"
     },
     {
       "label": "覺醒．虛空操縱輔助",
       "value": "Awakened_Void_Manipulation_Support",
       "type": "攻擊",
-      "attributes": "dex"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "dex",
+      "level": "72"
     },
     {
       "label": "覺醒．詛咒光環輔助",
       "value": "Awakened_Blasphemy_Support",
       "type": "攻擊",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "int",
+      "level": "72"
     },
     {
       "label": "覺醒．賦予輔助",
       "value": "Awakened_Empower_Support",
       "type": "攻擊",
-      "attributes": "str"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "str",
+      "level": "72"
     },
     {
       "label": "覺醒．近戰傷害擴散輔助",
       "value": "Awakened_Melee_Splash_Support",
       "type": "攻擊",
-      "attributes": "str"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "str",
+      "level": "72"
     },
     {
       "label": "覺醒．近戰物理傷害輔助",
       "value": "Awakened_Melee_Physical_Damage_Support",
       "type": "攻擊",
-      "attributes": "str"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "str",
+      "level": "72"
     },
     {
       "label": "覺醒．連鎖輔助",
       "value": "Awakened_Chain_Support",
       "type": "攻擊",
-      "attributes": "dex"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "dex",
+      "level": "72"
     },
     {
       "label": "覺醒．釋放輔助",
       "value": "Awakened_Unleash_Support",
       "type": "攻擊",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "int",
+      "level": "72"
     },
     {
       "label": "覺醒．閃電穿透輔助",
       "value": "Awakened_Lightning_Penetration_Support",
       "type": "攻擊",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "int",
+      "level": "72"
     },
     {
       "label": "覺醒．附加冰冷傷害輔助",
       "value": "Awakened_Added_Cold_Damage_Support",
       "type": "攻擊",
-      "attributes": "dex"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "dex",
+      "level": "72"
     },
     {
       "label": "覺醒．附加混沌傷害輔助",
       "value": "Awakened_Added_Chaos_Damage_Support",
       "type": "攻擊",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "int",
+      "level": "72"
     },
     {
       "label": "覺醒．附加火焰傷害輔助",
       "value": "Awakened_Added_Fire_Damage_Support",
       "type": "攻擊",
-      "attributes": "str"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "str",
+      "level": "72"
     },
     {
       "label": "覺醒．附加閃電傷害輔助",
       "value": "Awakened_Added_Lightning_Damage_Support",
       "type": "攻擊",
-      "attributes": "int"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "int",
+      "level": "72"
     },
     {
       "label": "覺醒．高階多重投射輔助",
       "value": "Awakened_Greater_Multiple_Projectiles_Support",
       "type": "攻擊",
-      "attributes": "dex"
+      "img": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png",
+      "attributes": "dex",
+      "level": "72"
     }
   ]
 }
