@@ -9,6 +9,10 @@ const linkConfig = [
     value: "首頁",
   },
   {
+    src: "/Build",
+    value: "拓荒流派",
+  },
+  {
     src: "/",
     value: "任務",
   },
