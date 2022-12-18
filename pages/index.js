@@ -1,7 +1,45 @@
+import React, { useEffect, useState } from "react";
 import data from "../public/task.json";
 
 export default function Home() {
   const { task } = data;
+  const [taskList, setTaskList] = useState([])
+
+  const initialList = () => {
+    if (task && task.length) {
+      const list = task.map((item, index) => {
+        const { title, content } = item
+        const chapterId = index + 1
+        const checkList = content.map((checkItem, cIndex) => ({ id: cIndex + 1, text: checkItem, checked: false }))
+        return { chapterId, title, checkList }
+      })
+      if (list && list.length) setTaskList(list)
+    }
+  }
+
+  useEffect(() => {
+    let savedList = window.localStorage.getItem('todoList') || []
+    if (savedList.length) {
+      try {
+        savedList = JSON.parse(savedList)
+        setTaskList(savedList)
+      } catch (error) {
+        initialList()
+      }
+    } else initialList()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  const handleCheck = (chapterId, taskId) => {
+    const newList = JSON.parse(JSON.stringify(taskList))
+    const checkList = newList[(chapterId - 1)]?.checkList
+    if (checkList) {
+      const haveDone = checkList.find(item => item.id === taskId)
+      if (haveDone) haveDone.checked = !haveDone.checked
+    }
+    setTaskList(newList)
+    window.localStorage.setItem('todoList', JSON.stringify(newList))
+  }
 
   return (
     <div
@@ -10,11 +48,11 @@ export default function Home() {
       }
     >
       <div className="py-4">
-        {task.length > 0 &&
-          task.map((item, index) => {
-            const { title, content } = item;
+        {taskList.length > 0 &&
+          taskList.map(chapter => {
+            const { chapterId, title, checkList } = chapter;
             return (
-              <div key={index}>
+              <div key={chapterId}>
                 <h1
                   className="text-3xl text-center font-bold mt-5"
                   style={{ color: "#af6025" }}
@@ -22,37 +60,30 @@ export default function Home() {
                   {title}
                 </h1>
 
-                {content.length > 0 &&
-                  content?.map((item, idx) => {
+                {checkList.length > 0 &&
+                  checkList?.map(checkItem => {
+                    const { id, text, checked } = checkItem
                     return (
                       <div
-                        data-active={"active_" + idx}
+                        data-active={"active_" + id}
                         className={`flex items-center`}
-                        key={idx}
+                        key={id}
                       >
-                        <span className="w-8 text-right">{`${idx + 1}.`}</span>
+                        <span className="w-12 text-right text-white">{`${chapterId}-${id}.`}</span>
                         <input
                           className="mx-2 "
                           type="checkbox"
-                          name={`${title}_${idx}`}
-                          id={`${title}_${idx}`}
-                          onChange={(e) => {
-                            if (e.target.checked) {
-                              e.target.labels[0].style.opacity = 0.2;
-                              e.target.labels[0].style.textDecorationLine =
-                                "line-through";
-                            } else {
-                              e.target.labels[0].style.opacity = 1;
-                              e.target.labels[0].style.textDecorationLine =
-                                "none";
-                            }
-                          }}
+                          name={`${title}_${id}`}
+                          id={`${title}_${id}`}
+                          onChange={() => handleCheck(chapterId, id)}
+                          checked={checked}
                         />
                         <label
                           className="text-left text-xl cursor-pointer text-green-500"
-                          htmlFor={`${title}_${idx}`}
+                          htmlFor={`${title}_${id}`}
+                          style={{ opacity: checked ? 0.2 : 1, textDecorationLine: checked ? 'line-through' : 'none' }}
                         >
-                          {item}
+                          {text}
                         </label>
                       </div>
                     );

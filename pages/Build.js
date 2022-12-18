@@ -11,13 +11,13 @@ const Build = () => {
 			}
 		>
 			<h1 className={ "w-full h-auto text-center text-2xl text-yellow-300 py-4" }>禁忌聖域 3.20</h1>
-			<div className={ "text-center cursor-pointer py-5" }>
+			<div className={ "flex flex-wrap justify-center py-5" }>
 				{
 					chapters.map((title) => (
 						<span
 							key={title}
 							className={
-								`px-5 ${active === title ? "text-yellow-500" : "text-white"}`
+								`px-5 cursor-pointer ${active === title ? "text-yellow-500" : "text-white"}`
 							}
 							onClick={() => setActive(title)}
 						>
@@ -26,8 +26,8 @@ const Build = () => {
 					))
 				}
 			</div>
-			<div className={ "container mx-auto flex" }>
-				<div className={ "w-2/4" }>
+			<div className={ "container mx-auto flex flex-wrap" }>
+				<div className={ "sm:w-2/4 w-full" }>
 					<h2 className={ "text-green-400 text-xl text-center" }>追獵毒藥</h2>
 					<h3 className={ "text-white text-lg text-center" }>特色：打王</h3>
 					<h2 className={ "text-yellow-500 text-xl" }>{active}</h2>
@@ -113,7 +113,7 @@ const Build = () => {
 						</a>
 					</div>
 				</div>
-				<div className={ "w-2/4" }>
+				<div className={ "sm:w-2/4 w-full" }>
 					<h2 className={ "text-green-400 text-xl text-center" }>秘術毒藥</h2>
 					<h3 className={ "text-white text-lg text-center" }>特色：刷圖效率，打王稍弱於追獵</h3>
 					<h2 className={ "text-yellow-500 text-xl" }>{active}</h2>
