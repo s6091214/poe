@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true, // 存檔時自動 format
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // 預設 format 使用 prettier
+  "editor.tabSize": 2,
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "scss.lint.unknownAtRules": "ignore"
+}

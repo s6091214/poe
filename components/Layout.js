@@ -75,7 +75,7 @@ const Layout = ({ children }) => {
         </ul>
       </div>
 
-      <main>{children}</main>
+      <main className="min-h-screen">{children}</main>
     </>
   );
 };
