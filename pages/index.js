@@ -15,6 +15,7 @@ export default function Home() {
           text: checkItem,
           checked: false,
         }));
+        checkList.unshift({ id: 0, text: '一鍵全選', checked: false });
         return { chapterId, title, checkList };
       });
       if (list && list.length) setTaskList(list);
@@ -36,10 +37,19 @@ export default function Home() {
 
   const handleCheck = (chapterId, taskId) => {
     const newList = JSON.parse(JSON.stringify(taskList));
+    if (!chapterId) return false;
     const checkList = newList[chapterId - 1]?.checkList;
     if (checkList) {
-      const haveDone = checkList.find((item) => item.id === taskId);
-      if (haveDone) haveDone.checked = !haveDone.checked;
+      if (taskId === 0) {
+        const setAllChecked = !checkList[0].checked;
+        newList[chapterId - 1].checkList = [...checkList].map((item) => ({
+          ...item,
+          checked: setAllChecked,
+        }));
+      } else {
+        const haveDone = checkList.find((item) => item.id === taskId);
+        if (haveDone) haveDone.checked = !haveDone.checked;
+      }
     }
     setTaskList(newList);
     window.localStorage.setItem('todoList', JSON.stringify(newList));
@@ -52,7 +62,7 @@ export default function Home() {
       }
     >
       <div className="py-4">
-        {taskList.length > 0 &&
+        {taskList.length &&
           taskList.map((chapter) => {
             const { chapterId, title, checkList } = chapter;
             return (
@@ -64,8 +74,9 @@ export default function Home() {
                   {title}
                 </h1>
 
-                {checkList.length > 0 &&
-                  checkList?.map((checkItem) => {
+                {checkList &&
+                  checkList.length &&
+                  checkList.map((checkItem) => {
                     const { id, text, checked } = checkItem;
                     return (
                       <div
@@ -73,7 +84,9 @@ export default function Home() {
                         className={`flex items-center`}
                         key={id}
                       >
-                        <span className="w-12 text-right text-white">{`${chapterId}-${id}.`}</span>
+                        <span className="w-12 text-right text-white">
+                          {id ? `${chapterId}-${id}.` : ''}
+                        </span>
                         <input
                           className="mx-2 "
                           type="checkbox"
@@ -83,7 +96,9 @@ export default function Home() {
                           checked={checked}
                         />
                         <label
-                          className="cursor-pointer text-left text-xl text-green-500"
+                          className={`cursor-pointer text-left text-xl ${
+                            id ? 'text-green-500' : 'text-yellow-500'
+                          }`}
                           htmlFor={`${title}_${id}`}
                           style={{
                             opacity: checked ? 0.2 : 1,
