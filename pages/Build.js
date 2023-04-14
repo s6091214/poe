@@ -63,9 +63,22 @@ const Build = () => {
                         <span>(看個人)</span>
                       </p>
                       <p>
-                        <span className="text-green-500">腐蝕毒雨(Lv12)</span>
+                        <span>{'---殺完船長--> '}</span>
+                        <span className="text-green-500">
+                          腐蝕毒雨(Lv12) + 幻影射手 + 快速攻擊
+                        </span>
                       </p>
-                      <p className="flex text-left">
+                      <div className="mt-8 flex text-left">
+                        <span className="flex-basis-[96px] flex-shrink-0 flex-grow-0">
+                          Tips：
+                        </span>
+                        <div>
+                          <p>磨刀石換鑑定卷軸</p>
+                          <p>藍技能+鑄鋼戒指=冰抗戒指 *2 打海妖</p>
+                          <p>海妖打完買砲塔圖騰輔助放身上練</p>
+                        </div>
+                      </div>
+                      <p className="flex pt-4 text-left">
                         <span className="flex-basis-[96px] flex-shrink-0 flex-grow-0">
                           注意：
                         </span>
@@ -84,13 +97,8 @@ const Build = () => {
                   return (
                     <div className="text-center text-2xl text-white">
                       <p className="p-2">
-                        <span className="text-green-500">
-                          腐蝕毒雨 + 幻影射手 + 快速攻擊
-                        </span>
-                      </p>
-                      <p className="p-2">
                         <span className="text-green-500">腐蝕毒雨 +</span>
-                        <span className="text-red-500"> 砲台輔助 </span>
+                        <span className="text-red-500"> 砲塔圖騰輔助 </span>
                         <span className="text-green-500">+ 快速攻擊</span>
                       </p>
                       <p className="p-2">
