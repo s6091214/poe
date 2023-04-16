@@ -44,7 +44,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <div
-        className="fixed flex h-16 w-full items-center"
+        className="fixed z-10 flex h-16 w-full items-center"
         style={{
           backgroundImage:
             'linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%)',

@@ -1,9 +1,21 @@
-import { React, useState } from 'react';
+import { React, useState, useEffect } from 'react';
 import Image from 'next/image';
 
 const Build = () => {
   const chapters = Array.from({ length: 8 }, (_, i) => `Act ${i + 1}`);
   const [active, setActive] = useState('Act 1');
+
+  useEffect(() => {
+    const activeAct = window.localStorage.getItem('activeAct', activeAct);
+    if (activeAct) setActive(activeAct);
+  }, []);
+
+  const selectAct = (activeAct) => {
+    if (activeAct) {
+      setActive(activeAct);
+      window.localStorage.setItem('activeAct', activeAct);
+    }
+  };
 
   return (
     <div
@@ -21,7 +33,7 @@ const Build = () => {
             className={`cursor-pointer px-5 ${
               active === title ? 'text-yellow-500' : 'text-white'
             }`}
-            onClick={() => setActive(title)}
+            onClick={() => selectAct(title)}
           >
             {title}
           </span>
