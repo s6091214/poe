@@ -13,8 +13,8 @@ const linkConfig = [
     value: '拓荒流派',
   },
   {
-    src: '/',
-    value: '任務',
+    src: '/MapTalent',
+    value: '輿圖天賦',
   },
   {
     src: '/Gem',
@@ -44,7 +44,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <div
-        className="fixed z-10 flex h-16 w-full items-center"
+        className="sticky top-0 z-10 flex h-16 w-full items-center"
         style={{
           backgroundImage:
             'linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%)',

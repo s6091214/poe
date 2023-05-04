@@ -1,5 +1,4 @@
 import { React, useState, useEffect } from 'react';
-import Image from 'next/image';
 
 const Build = () => {
   const chapters = Array.from({ length: 8 }, (_, i) => `Act ${i + 1}`);
