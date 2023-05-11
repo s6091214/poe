@@ -13,6 +13,10 @@ const linkConfig = [
     value: '拓荒流派',
   },
   {
+    src: '/MapWalkthrough',
+    value: '輿圖轉型',
+  },
+  {
     src: '/MapTalent',
     value: '輿圖天賦',
   },

@@ -43,7 +43,7 @@ const Build = () => {
           <h2 className="text-center text-xl text-green-400">追獵者毒雨</h2>
           <h3 className="text-center text-lg text-white">特色：拓荒穩定</h3>
           <h2 className="text-xl text-yellow-500">{active}</h2>
-          <div className="content min-h-full">
+          <div className="content">
             {(() => {
               switch (active) {
                 case 'Act 1':
@@ -279,11 +279,11 @@ const Build = () => {
               }
             })()}
           </div>
-          <div className="text-center text-xl text-yellow-500">
+          <div className="py-4 text-center text-xl text-yellow-500">
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.youtube.com/watch?v=pOaLSQ7Npeg&t=10s"
+              href="https://www.youtube.com/watch?v=RboSg_BWG-o"
             >
               資料來源 Yotuber Change
             </a>
@@ -293,7 +293,7 @@ const Build = () => {
           <h2 className="text-center text-xl text-green-400">秘術毒藥(3.20)</h2>
           <h3 className="text-center text-lg text-white">舊版本拓荒</h3>
           <h2 className="text-xl text-yellow-500">{active}</h2>
-          <div className="content min-h-full">
+          <div className="content">
             {(() => {
               switch (active) {
                 case 'Act 1':
@@ -441,7 +441,7 @@ const Build = () => {
               }
             })()}
           </div>
-          <div className="text-center text-xl text-yellow-500">
+          <div className="py-4 text-center text-xl text-yellow-500">
             <a
               target="_blank"
               rel="noreferrer"
