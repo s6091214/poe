@@ -37,7 +37,7 @@ const linkConfig = [
     value: '地圖 ',
   },
   {
-    src: '/',
+    src: '/Tips',
     value: '工具 ',
   },
 ];

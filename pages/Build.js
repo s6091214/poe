@@ -23,7 +23,7 @@ const Build = () => {
       }
     >
       <h1 className="h-auto w-full py-4 text-center text-2xl text-yellow-300">
-        熔火冥獄 3.21
+        祖靈聯盟 3.22
       </h1>
       <div className="flex flex-wrap justify-center py-5">
         {chapters.map((title) => (
@@ -39,7 +39,7 @@ const Build = () => {
         ))}
       </div>
       <div className="container mx-auto flex flex-wrap">
-        <div className="w-full sm:w-2/4">
+        <div className="w-full px-1 sm:w-2/4">
           <h2 className="text-center text-xl text-green-400">追獵者毒雨</h2>
           <h3 className="text-center text-lg text-white">特色：拓荒穩定</h3>
           <h2 className="text-xl text-yellow-500">{active}</h2>
@@ -289,9 +289,11 @@ const Build = () => {
             </a>
           </div>
         </div>
-        <div className="w-full sm:w-2/4">
-          <h2 className="text-center text-xl text-green-400">秘術毒藥(3.20)</h2>
-          <h3 className="text-center text-lg text-white">舊版本拓荒</h3>
+        <div className="w-full px-1 sm:w-2/4">
+          <h2 className="text-center text-xl text-green-400">
+            赦免轉鑄影(死靈 or 守護者)
+          </h2>
+          <h3 className="text-center text-lg text-white"></h3>
           <h2 className="text-xl text-yellow-500">{active}</h2>
           <div className="content">
             {(() => {
@@ -301,48 +303,90 @@ const Build = () => {
                     <div className="text-center text-2xl text-white">
                       <p className="p-2">
                         <span className="text-blue-500">
-                          熔岩翻滾 + 密能波動 +{' '}
+                          冰霜脈衝 + 秘能波動輔助
                         </span>
-                        <span className="text-green-500">猛攻(可開貴族拿)</span>
                       </p>
                       <p className="p-2">
-                        <span className="text-red-500">火舌圖騰</span>
-                        <span className="text-blue-500">
-                          {' '}
-                          + 召喚幻影 + 燃燒輔助
-                        </span>
+                        <span>拿完跑水後</span>
+                      </p>
+                      <p className="p-2">
+                        <span className="text-blue-500">召喚幻影輔助</span>
+                        <span className="text-red-500"> + 神聖火舌圖騰 + </span>
+                        <span className="text-blue-500">燃燒輔助</span>
                       </p>
                       <p className="p-2">
                         <span className="text-blue-500">烈焰之牆</span>
                       </p>
                       <p className="p-2">
                         <span className="text-blue-500">
-                          {'霜濂之瞬 => 烈焰衝刺'}
+                          霜濂之瞬 + 秘能波動輔助
+                        </span>
+                        <span>(只需 2 等)</span>
+                      </p>
+                      <p className="p-2">
+                        <span className="text-blue-500">
+                          寒霜爆 + 秘能波動輔助
                         </span>
                       </p>
                       <p className="p-2">
-                        配方杖：魔法法杖 + 對應屬性戒 + 改造石(8、12、20等)
+                        <span>打完船長後</span>
                       </p>
+                      <p className="p-2">
+                        <span className="text-red-500">赦免 + </span>
+                        <span className="text-green-500">附加冰冷傷害 + </span>
+                        <span className="text-blue-500">附加閃電傷害</span>
+                      </p>
+                      <p className="p-2">
+                        <span className="pr-2">丟掉</span>
+                        <span className="pr-2 text-blue-500">冰霜脈衝</span>
+                        <span className="pr-2 text-red-500">神聖火舌圖騰</span>
+                        <span className="pr-2 text-blue-500">烈焰之牆</span>
+                        <span className="text-blue-500">寒霜爆</span>
+                      </p>
+                      <div className="flex">
+                        <img
+                          src={'/images/tip1.png'}
+                          alt="talent"
+                          className="mx-auto mt-4 block"
+                        />
+                        <img
+                          src={'/images/tip2.png'}
+                          alt="talent"
+                          className="mx-auto mt-4 block"
+                        />
+                      </div>
+                      <img
+                        src={'/images/build1.png'}
+                        alt="talent"
+                        className="mx-auto mt-4 block"
+                      />
                     </div>
                   );
                 case 'Act 2':
                   return (
                     <div className="text-center text-2xl text-white">
                       <p className="p-2">
-                        <span className="text-red-500">灰燼之捷</span>
-                        <span className="ml-5 text-blue-500">召喚探測機獸</span>
+                        <span>拿到邪影寶石後</span>
                       </p>
                       <p className="p-2">
-                        <span className="text-blue-500">
-                          熔岩翻滾(信念湧浪) + 快速施放 +{' '}
+                        <span className="text-red-500">純淨之捷 + </span>
+                        <span className="text-blue-500">附加閃電傷害</span>
+                        <span className="text-green-500">
+                          {'(附加冰冷傷害) + '}
                         </span>
-                        <span className="text-green-500">猛攻</span>
+                        <span className="text-blue-500">幻影召喚輔助</span>
                       </p>
                       <p className="p-2">
-                        <span className="text-blue-500">
-                          烈焰衝刺 + 秘能波動
+                        <span className="text-blue-500">閃電之捷</span>
+                      </p>
+                      <p className="p-2">
+                        <span>跑完織網者巢穴</span>
+                      </p>
+                      <p className="p-2">
+                        <span className="ml-5 text-green-500">褻瀆 + </span>
+                        <span className="ml-5 text-blue-500">
+                          秘能波動輔助 + 快速施放
                         </span>
-                        <span className="ml-5 text-green-500">褻瀆</span>
                       </p>
                     </div>
                   );
@@ -350,94 +394,87 @@ const Build = () => {
                   return (
                     <div className="text-center text-2xl text-white">
                       <p className="p-2">
-                        <span className="text-green-500">
-                          熔岩送葬 + 低階多重投射
-                        </span>
-                        <span className="text-blue-500">
-                          {' '}
-                          + 集中效應 + 元素集中
-                        </span>
+                        <span>打格拉維奇將軍後</span>
+                      </p>
+                      <p className="p-2">
+                        <span className="text-red-500">脆弱</span>
                       </p>
                       <p className="p-2">
                         <span className="text-blue-500">
-                          末日烙印 + 燃燒輔助 + 快速施放 +{' '}
+                          號召 喚醒幽魂(河道抓冥河銀背獸)
                         </span>
-                        <span className="text-green-500">猛攻</span>
                       </p>
                       <p className="p-2">
+                        <span>解完圖書館黃金之頁</span>
+                      </p>
+                      <p className="p-2">
+                        <span className="text-red-500">純淨之捷 + </span>
                         <span className="text-blue-500">
-                          {'召喚探測機獸 => 元素淨化'}
+                          豢養狂熱 + 召喚幻影輔助 +{' '}
                         </span>
+                        <span className="text-red-500">癱瘓輔助</span>
                       </p>
                       <p className="p-2">
-                        <span className="text-blue-500">易燃詛咒</span>
-                      </p>
-                    </div>
-                  );
-                case 'Act 4':
-                  return (
-                    <div className="text-center text-2xl text-white">
-                      <p className="text-right text-3xl">換掉熔岩球和圖騰</p>
-                      <p className="p-2">
-                        <span className="text-green-500">
-                          熔岩送葬 + 高階多重投射
+                        <span className="text-red-500">
+                          重盾衝鋒 or 躍擊 +{' '}
                         </span>
-                        <span className="text-blue-500">
-                          {' '}
-                          + 集中效應 + 犧牲
-                        </span>
-                      </p>
-                      <p className="p-2">
-                        <span className="text-blue-500">
-                          末日烙印 + 燃燒輔助 + 點燃擴散 +{' '}
-                        </span>
-                        <span className="text-green-500">猛攻</span>
-                      </p>
-                    </div>
-                  );
-                case 'Act 6':
-                  return (
-                    <div className="text-center text-2xl text-white">
-                      <p className="text-right text-3xl">關鍵珠寶帶著練</p>
-                      <p className="p-2">
-                        <span className="text-green-500">毒藥</span>
-                        <span className="ml-5 text-green-500">病疫之難</span>
-                        <span className="ml-5 text-green-500">凋零之步</span>
-                      </p>
-                      <p className="p-2">
-                        <span className="text-red-500">重盾衝鋒 + </span>
                         <span className="text-green-500">快速攻擊</span>
                       </p>
-                    </div>
-                  );
-                case 'Act 8':
-                  return (
-                    <div className="text-center text-2xl text-white">
-                      <p className="text-right text-3xl">轉型關鍵期</p>
                       <p className="p-2">
-                        <span className="text-green-500">
-                          毒藥 + 高階齊射 + 高階多重投射
-                        </span>
-                        <span className="ml-5 text-blue-500">無邊異能</span>
-                      </p>
-                      <p className="p-2">
-                        <span className="text-green-500">
-                          病疫之難 + 凋零之步 +{' '}
-                        </span>
-                        <span className="text-blue-500">增大範圍</span>
-                      </p>
-                      <p className="p-2">
-                        <span className="text-red-500">重盾衝鋒 + </span>
-                        <span className="text-green-500">快速攻擊</span>
-                      </p>
-                      <p>
-                        <span className="text-green-500">精準</span>
-                        <span className="ml-5 text-green-500">優雅</span>
+                        <span className="text-red-500">堅定</span>
+                        <span>(點完光環圈可開)</span>
                       </p>
                     </div>
                   );
                 default:
-                  return '';
+                  return (
+                    <div className="text-center text-2xl text-white">
+                      <p className="text-right text-3xl">
+                        洞色連線不夠不用強求
+                      </p>
+                      <p className="p-2">
+                        <span>打福爾拿旗子 {'=>'} 開啟礦坑門後</span>
+                      </p>
+                      <p className="p-2">
+                        <span className="text-blue-500">
+                          食腐魔像 + 豢養狂熱 +{' '}
+                        </span>
+                        <span className="text-red-500">癱瘓輔助</span>
+                      </p>
+                      <p className="p-2">
+                        <span className="text-red-500">赦免 + </span>
+                        <span className="text-blue-500">
+                          召喚幻影輔助 + 附加閃電傷害 + 快速施放
+                        </span>
+                      </p>
+                      <p className="p-2">
+                        <span className="text-red-500">純淨之捷</span>
+                      </p>
+                      <p className="p-2">
+                        <span className="text-blue-500">
+                          喚醒幽魂 + 召喚生命輔助
+                        </span>
+                      </p>
+                      <p className="p-2">
+                        <span className="text-blue-500">霜濂之瞬/</span>
+                        <span className="text-red-500">
+                          重盾衝鋒 or 躍擊 +{' '}
+                        </span>
+                        <span className="text-green-500">快速攻擊/</span>
+                        <span className="text-blue-500">號召</span>
+                      </p>
+                      <img
+                        src={'/images/build2.png'}
+                        alt="talent"
+                        className="mx-auto mt-4 block"
+                      />
+                      <img
+                        src={'/images/build3.png'}
+                        alt="talent"
+                        className="mx-auto mt-4 block"
+                      />
+                    </div>
+                  );
               }
             })()}
           </div>
@@ -445,9 +482,9 @@ const Build = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.youtube.com/watch?v=rPkHQ8t1cgQ"
+              href="https://www.youtube.com/watch?v=_EPN07rITJs&list=WL&index=33"
             >
-              資料來源 Yotuber Change
+              資料來源 Yotuber 惡魔貓和幾吉和點點
             </a>
           </div>
         </div>
