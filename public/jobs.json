@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Marauder",
+    "img": "/images/classes/marauder.png"
+  },
+  {
+    "name": "Ranger",
+    "img": "/images/classes/ranger.png"
+  },
+  {
+    "name": "Duelist",
+    "img": "/images/classes/duelist.png"
+  },
+  {
+    "name": "Witch",
+    "img": "/images/classes/witch.png"
+  },
+  {
+    "name": "Templar",
+    "img": "/images/classes/templar.png"
+  },
+  {
+    "name": "Shadow",
+    "img": "/images/classes/shadow.png"
+  },
+  {
+    "name": "Scion",
+    "img": "/images/classes/scion.png"
+  }
+]

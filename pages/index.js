@@ -56,11 +56,7 @@ export default function Home() {
   };
 
   return (
-    <div
-      className={
-        'flex flex-col items-center justify-center bg-black bg-poe bg-cover bg-fixed bg-no-repeat pt-16'
-      }
-    >
+    <div className={'flex flex-col items-center justify-center pt-16'}>
       <div className="py-4">
         {taskList.length &&
           taskList.map((chapter) => {

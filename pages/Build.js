@@ -17,11 +17,7 @@ const Build = () => {
   };
 
   return (
-    <div
-      className={
-        'h-full w-full bg-black bg-poe bg-cover bg-fixed bg-no-repeat pt-16'
-      }
-    >
+    <div className={'h-full w-full pt-16'}>
       <h1 className="h-auto w-full py-4 text-center text-2xl text-yellow-300">
         祖靈聯盟 3.22
       </h1>

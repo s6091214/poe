@@ -25,8 +25,8 @@ const linkConfig = [
     value: '寶石',
   },
   {
-    src: '/',
-    value: '物品',
+    src: '/Task',
+    value: '任務',
   },
   {
     src: '/',
@@ -80,7 +80,9 @@ const Layout = ({ children }) => {
         </ul>
       </div>
 
-      <main className="min-h-screen">{children}</main>
+      <main className="min-h-screen bg-black bg-poe bg-cover bg-fixed bg-no-repeat">
+        {children}
+      </main>
     </>
   );
 };
