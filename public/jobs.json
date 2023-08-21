@@ -13,7 +13,8 @@
   },
   {
     "name": "Witch",
-    "img": "/images/classes/witch.png"
+    "img": "/images/classes/witch.png",
+    "classes": ["Necromancer"]
   },
   {
     "name": "Templar",

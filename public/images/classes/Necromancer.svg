@@ -1,0 +1,1638 @@
+<svg version="1.1" viewBox="0 0 675 700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- defining image icons and lines -->
+    <defs>
+        <filter id="Darken">
+            <feColorMatrix in="SourceGraphic" type="saturate" values="0.3"></feColorMatrix>
+        </filter>
+        <image id="normalActive" xlink:href="https://web.poecdn.com/image/passive-skill/ascendancy-skills.jpg?c7f5f597" width="948" height="1272" preserveAspectRatio="none"></image>
+        <image id="notableActive" xlink:href="https://web.poecdn.com/image/passive-skill/ascendancy-skills.jpg?c7f5f597" width="948" height="1272" preserveAspectRatio="none"></image>
+        <image id="normalInactive" xlink:href="https://web.poecdn.com/image/passive-skill/ascendancy-skills-disabled.jpg?98a3db27" width="948" height="1272" preserveAspectRatio="none"></image>
+        <image id="notableInactive" xlink:href="https://web.poecdn.com/image/passive-skill/ascendancy-skills-disabled.jpg?98a3db27" width="948" height="1272" preserveAspectRatio="none"></image>
+        <image id="ascendancyBackground" xlink:href="https://web.poecdn.com/image/passive-skill/ascendancy-background.jpg?278bf872" width="5384" height="4344" preserveAspectRatio="none"></image>
+        <image id="ascendancy" xlink:href="https://web.poecdn.com/image/passive-skill/ascendancy.png?caefee00" width="425" height="283" preserveAspectRatio="none"></image>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Assassin.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-0, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Berserker.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-54, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Champion.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-108, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Chieftain.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-162, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Deadeye.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-216, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Elementalist.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-270, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Gladiator.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-324, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Guardian.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-378, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Hierophant.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-432, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Inquisitor.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-486, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Juggernaut.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-540, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Necromancer.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-594, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Occultist.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-648, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Pathfinder.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-702, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Raider.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-756, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Saboteur.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-810, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/SkillPoint.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-864, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Slayer.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-0, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Trickster.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-54, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/SmallNode.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-108, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/DmgAttackSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-162, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/DmgCrit.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-216, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/DmgLeech.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-270, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/DmgWarcry.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-324, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/AnEAttDamage.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-378, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/AnEAura.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-432, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/AnEFortify.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-486, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/AnETaunt.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-540, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/ImpalePassive.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-594, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/LifeRegenFireDamage.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-648, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/LifeRegenStrength.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-702, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/LifeRegenTotemPlacementSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-756, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/DeadEye/ProjectileDamageAccuracy.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-810, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/DeadEye/ProjectileDamageAttackSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-864, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/DeadEye/ProjectileDamageCrit.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-0, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/ElementalDamageAttackCasteSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-54, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/ElementalDamageElementalResistances.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-108, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/ElementalDamageFreezeShockIgnite.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-162, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADBlockChance.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-216, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADOneHand.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-270, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADSpeedAoE.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-324, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/ArmourEnergyMeleeDamage.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-378, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/ArmourEnergyShieldDefenseFromShields.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-432, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/ArmourEnergyShieldManaPool.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-486, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/ArmourEnergyShieldStaves.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-540, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/Minion Damage Armour and Energy Shield.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-594, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/ManaRegen.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-648, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/IncreasedElementalDamageAttackCasteSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-702, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/IncreasedElementalDamageAvoidElementalStatusEffects.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-756, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/IncreasedElementalDamageCasteSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-810, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/IncreasedElementalDamageElementalPenetration.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-864, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/IncreasedArmourAttackDamage.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-0, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/IncreasedArmourAttackSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-54, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/IncreasedArmourLifeRegeneration.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-108, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/IncreasedArmourMovementSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-162, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/IncreasedArmourStunDuration.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-216, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/CorpseConsumptionNode.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-270, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/IncreasedMinionDamageIncreasedMinionLife.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-324, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/IncreasedMinionDamageIncreasedSkillDuration.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-378, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/ManaNode.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-432, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/EnergyShieldChaos.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-486, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/EnergyShieldCold.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-540, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/IncreasedEnergyShieldAttackAndCastSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-594, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/IncreasedEnergyShieldCriticalStrikeChance.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-648, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/IncreasedEnergyShieldManaReservation.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-702, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/IncreasedEnergyShieldMaximumMana.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-756, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/FlaskEffectDamageOverTime.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-810, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/FlaskEffectElementalResistance.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-864, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/FlaskEffectFlaskDuration.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-0, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/IncreasedAttackSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-54, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/IncreasedElementalDamage.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-108, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/IncreasedFrenzyChargeDuration.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-162, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/ElementalDamageElementalResistance.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-216, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/ElementalDamageMines.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-270, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/ElementalDamageMovementSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-324, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/2HdmgAOE.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-378, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/2HdmgCritStrikeMultiplier.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-432, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/2HdmgFrenzyEnduranceCharge.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-486, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/2HdmgLeech.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-540, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/2HdmgSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-594, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/DefensiveNodeTrickster.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-648, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/OffensiveNodeTrickster.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-702, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/damage.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-756, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/plusdexterity.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-810, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/plusintelligence.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-864, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/plusintelligencedexterity.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-0, -270)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/plusstrength.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-54, -270)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/plusstrengthdexterity.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-108, -270)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/plusstrengthintelligence.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalActive" transform="translate(-162, -270)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Additionalprojectile.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-0, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Ascendancy.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-79, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Dex.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-158, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/DexInt.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-237, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Int.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-316, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Str.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-395, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/StrDex.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-474, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/StrInt.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-553, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/Ambush.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-632, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/Assassinate.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-711, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/DeadlyInfusion.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-790, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/Elusive.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-869, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/NoxiousStrike.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-0, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/ToxicDelivery.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-79, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/UnstableInfusion.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-158, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/AspectOfCarnage.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-237, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/Blitz.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-316, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/CloakedAgony.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-395, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/CombatFrenzy.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-474, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/DefyPain.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-553, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/RiteOfRuin.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-632, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/WarBringer.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-711, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/Conqueror.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-790, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/FirstStrikeLastFall.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-869, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/Fortitude.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-0, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/ImpalePassiveNotable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-79, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/Inpirational.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-158, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/Unstopable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-237, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/WorthyFoe.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-316, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/ArohunguiMoonsPresence.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-395, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/HinekoraDeathsFury.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-474, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/NgamahuFlamesAdvance.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-553, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/RamakoSunsLight.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-632, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/TasalioCleansingWater.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-711, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/TawhoaForestsStrength.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-790, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/TukomahaWarsHerald.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-869, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/ValakoStormsEmbrace.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-0, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/DeadEye/FarShot.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-79, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/DeadEye/GatherWinds.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-158, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/DeadEye/Ricochet.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-237, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/DeadEye/SharpAndVenomous.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-316, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/ChillSpecialisation.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-395, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/ElemancerIcon.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-474, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/IgniteSpecialisation.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-553, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/IridescentFlesh.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-632, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/LiegeOfThePrimordial.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-711, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/PendulumOfDestruction.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-790, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/PrimevalForce.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-869, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/ShockSpecialisation.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-0, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADBloodAndSand.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-79, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADBloodInEyes.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-158, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADOutmatchOutlast.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-237, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADPainForged.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-316, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADVersitileCombatant.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-395, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADViolence.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-474, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADViolentRetaliation.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-553, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/HarmonyOfPurpose.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-632, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/Radient Crusade.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-711, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/RadientFaith.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-790, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/ShieldMastery.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-869, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/TimeOfNeed.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-0, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/Unwavering Crusade.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-79, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/UnwaveringFaith.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-158, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/AncestralZeal.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-237, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/ArcaneSurge.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-316, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/DiscipleOfRuin.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-395, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/ItemAugment.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-474, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/MindOverBeing.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-553, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/MindOverBody.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-632, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/SignOfPurpose.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-711, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/SpiritualEmpowerment.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-790, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/ElementalDomination.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-869, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/ElementalForce.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-0, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/ElementalMastery.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-79, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/GloryOfTheSavant.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-158, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/InstrumentsOfVirtue.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-237, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/InstrumentsofZeal.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-316, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/Sanctify.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-395, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/JuggernautArmourNotable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-474, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/Unbreakable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-553, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/Undeniable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-632, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/Unflinching.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-711, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/Unrelenting.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-790, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/Unstoppable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-869, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/Unyielding.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-0, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Mark.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-79, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Mirage.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-158, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/CommandingTheDarkness.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-237, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/CorpseConsumptionNotable2.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-316, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/DefensiveMinionNotable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-395, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/EssenceGlutton.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-474, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/GenericMinionNotable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-553, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/GiftsOfTheDamned.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-632, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/OffensiveMinionNotable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-711, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/PlagueBringer.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-790, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/FatefulEchoes.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-869, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/FrigidWake.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-0, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/LotusExtract.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-79, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/SoulCatalyst.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-158, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/VoidBeacon.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-237, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/VowOfDamnation.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-316, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/WitheringPresence.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-395, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/AlchemistGift.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-474, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/MasterAlchemist.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-553, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/MasterHerbalist.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-632, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/MasterSurgeon.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-711, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/Master Toxicist.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-790, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/NaturesAdrenaline.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-869, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/VeteranBowyer.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-0, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/ProtectiveWinds.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-79, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/AvatarOfFrenzy.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-158, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/AvatarOfOnslaught.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-237, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/AvatarOfPhasing.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-316, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/QuartzInfusion.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-395, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/RapidAssault.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-474, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/WayOfThePoacher.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-553, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/BlindedAssult.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-632, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/BombSpecialist.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-711, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/ChainReaction.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-790, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/DemolitionSpecialist.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-869, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/ExplosivesExpert.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-0, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/LikeClockworkNotable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-79, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/PerfectCrime.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-158, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/ShadowsDarknessBlind.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-237, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/BaneOfLegends.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-316, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/BrutalFervor.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-395, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/Charges.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-474, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/CriticalAttacks.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-553, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/EndlessHunger.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-632, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/Headman.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-711, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/Impact.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-790, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/HeedfulRecovery.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-869, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/ImmuneToDoT.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-0, -1193)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/OneStepAheadTrickster.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-79, -1193)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/PolymathTrickster.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-158, -1193)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/SoulThiefTrickster.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-237, -1193)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/SupressionEnergyShieldTrickster.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-316, -1193)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/UncontrolledVigour.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableActive" transform="translate(-395, -1193)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Assassin.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-0, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Berserker.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-54, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Champion.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-108, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Chieftain.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-162, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Deadeye.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-216, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Elementalist.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-270, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Gladiator.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-324, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Guardian.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-378, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Hierophant.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-432, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Inquisitor.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-486, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Juggernaut.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-540, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Necromancer.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-594, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Occultist.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-648, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Pathfinder.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-702, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Raider.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-756, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Saboteur.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-810, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/SkillPoint.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-864, -0)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Slayer.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-0, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Trickster.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-54, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/SmallNode.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-108, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/DmgAttackSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-162, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/DmgCrit.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-216, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/DmgLeech.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-270, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/DmgWarcry.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-324, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/AnEAttDamage.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-378, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/AnEAura.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-432, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/AnEFortify.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-486, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/AnETaunt.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-540, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/ImpalePassive.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-594, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/LifeRegenFireDamage.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-648, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/LifeRegenStrength.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-702, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/LifeRegenTotemPlacementSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-756, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/DeadEye/ProjectileDamageAccuracy.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-810, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/DeadEye/ProjectileDamageAttackSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-864, -54)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/DeadEye/ProjectileDamageCrit.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-0, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/ElementalDamageAttackCasteSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-54, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/ElementalDamageElementalResistances.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-108, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/ElementalDamageFreezeShockIgnite.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-162, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADBlockChance.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-216, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADOneHand.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-270, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADSpeedAoE.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-324, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/ArmourEnergyMeleeDamage.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-378, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/ArmourEnergyShieldDefenseFromShields.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-432, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/ArmourEnergyShieldManaPool.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-486, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/ArmourEnergyShieldStaves.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-540, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/Minion Damage Armour and Energy Shield.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-594, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/ManaRegen.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-648, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/IncreasedElementalDamageAttackCasteSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-702, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/IncreasedElementalDamageAvoidElementalStatusEffects.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-756, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/IncreasedElementalDamageCasteSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-810, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/IncreasedElementalDamageElementalPenetration.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-864, -108)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/IncreasedArmourAttackDamage.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-0, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/IncreasedArmourAttackSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-54, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/IncreasedArmourLifeRegeneration.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-108, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/IncreasedArmourMovementSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-162, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/IncreasedArmourStunDuration.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-216, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/CorpseConsumptionNode.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-270, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/IncreasedMinionDamageIncreasedMinionLife.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-324, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/IncreasedMinionDamageIncreasedSkillDuration.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-378, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/ManaNode.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-432, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/EnergyShieldChaos.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-486, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/EnergyShieldCold.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-540, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/IncreasedEnergyShieldAttackAndCastSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-594, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/IncreasedEnergyShieldCriticalStrikeChance.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-648, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/IncreasedEnergyShieldManaReservation.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-702, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/IncreasedEnergyShieldMaximumMana.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-756, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/FlaskEffectDamageOverTime.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-810, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/FlaskEffectElementalResistance.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-864, -162)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/FlaskEffectFlaskDuration.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-0, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/IncreasedAttackSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-54, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/IncreasedElementalDamage.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-108, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/IncreasedFrenzyChargeDuration.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-162, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/ElementalDamageElementalResistance.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-216, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/ElementalDamageMines.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-270, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/ElementalDamageMovementSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-324, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/2HdmgAOE.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-378, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/2HdmgCritStrikeMultiplier.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-432, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/2HdmgFrenzyEnduranceCharge.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-486, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/2HdmgLeech.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-540, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/2HdmgSpeed.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-594, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/DefensiveNodeTrickster.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-648, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/OffensiveNodeTrickster.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-702, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/damage.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-756, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/plusdexterity.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-810, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/plusintelligence.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-864, -216)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/plusintelligencedexterity.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-0, -270)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/plusstrength.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-54, -270)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/plusstrengthdexterity.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-108, -270)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/plusstrengthintelligence.png" viewBox="0 0 54 54">
+          <use xlink:href="#normalInactive" transform="translate(-162, -270)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Additionalprojectile.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-0, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Ascendancy.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-79, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Dex.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-158, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/DexInt.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-237, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Int.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-316, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/Str.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-395, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/StrDex.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-474, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Ascendants/StrInt.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-553, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/Ambush.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-632, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/Assassinate.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-711, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/DeadlyInfusion.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-790, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/Elusive.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-869, -324)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/NoxiousStrike.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-0, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/ToxicDelivery.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-79, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Assassin/UnstableInfusion.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-158, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/AspectOfCarnage.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-237, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/Blitz.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-316, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/CloakedAgony.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-395, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/CombatFrenzy.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-474, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/DefyPain.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-553, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/RiteOfRuin.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-632, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Berserker/WarBringer.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-711, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/Conqueror.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-790, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/FirstStrikeLastFall.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-869, -403)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/Fortitude.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-0, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/ImpalePassiveNotable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-79, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/Inpirational.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-158, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/Unstopable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-237, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Champion/WorthyFoe.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-316, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/ArohunguiMoonsPresence.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-395, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/HinekoraDeathsFury.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-474, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/NgamahuFlamesAdvance.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-553, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/RamakoSunsLight.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-632, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/TasalioCleansingWater.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-711, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/TawhoaForestsStrength.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-790, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/TukomahaWarsHerald.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-869, -482)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Chieftain/ValakoStormsEmbrace.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-0, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/DeadEye/FarShot.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-79, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/DeadEye/GatherWinds.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-158, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/DeadEye/Ricochet.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-237, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/DeadEye/SharpAndVenomous.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-316, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/ChillSpecialisation.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-395, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/ElemancerIcon.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-474, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/IgniteSpecialisation.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-553, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/IridescentFlesh.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-632, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/LiegeOfThePrimordial.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-711, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/PendulumOfDestruction.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-790, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/PrimevalForce.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-869, -561)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Elementalist/ShockSpecialisation.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-0, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADBloodAndSand.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-79, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADBloodInEyes.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-158, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADOutmatchOutlast.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-237, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADPainForged.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-316, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADVersitileCombatant.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-395, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADViolence.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-474, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Gladiator/GLADViolentRetaliation.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-553, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/HarmonyOfPurpose.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-632, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/Radient Crusade.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-711, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/RadientFaith.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-790, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/ShieldMastery.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-869, -640)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/TimeOfNeed.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-0, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/Unwavering Crusade.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-79, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Guardian/UnwaveringFaith.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-158, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/AncestralZeal.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-237, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/ArcaneSurge.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-316, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/DiscipleOfRuin.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-395, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/ItemAugment.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-474, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/MindOverBeing.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-553, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/MindOverBody.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-632, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/SignOfPurpose.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-711, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Hierophant/SpiritualEmpowerment.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-790, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/ElementalDomination.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-869, -719)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/ElementalForce.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-0, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/ElementalMastery.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-79, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/GloryOfTheSavant.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-158, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/InstrumentsOfVirtue.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-237, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/InstrumentsofZeal.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-316, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Inquistitor/Sanctify.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-395, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/JuggernautArmourNotable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-474, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/Unbreakable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-553, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/Undeniable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-632, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/Unflinching.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-711, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/Unrelenting.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-790, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/Unstoppable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-869, -798)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Juggernaut/Unyielding.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-0, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Mark.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-79, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Mirage.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-158, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/CommandingTheDarkness.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-237, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/CorpseConsumptionNotable2.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-316, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/DefensiveMinionNotable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-395, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/EssenceGlutton.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-474, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/GenericMinionNotable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-553, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/GiftsOfTheDamned.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-632, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/OffensiveMinionNotable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-711, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Necromancer/PlagueBringer.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-790, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/FatefulEchoes.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-869, -877)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/FrigidWake.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-0, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/LotusExtract.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-79, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/SoulCatalyst.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-158, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/VoidBeacon.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-237, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/VowOfDamnation.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-316, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Occultist/WitheringPresence.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-395, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/AlchemistGift.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-474, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/MasterAlchemist.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-553, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/MasterHerbalist.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-632, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/MasterSurgeon.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-711, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/Master Toxicist.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-790, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/NaturesAdrenaline.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-869, -956)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/PathFinder/VeteranBowyer.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-0, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/ProtectiveWinds.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-79, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/AvatarOfFrenzy.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-158, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/AvatarOfOnslaught.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-237, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/AvatarOfPhasing.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-316, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/QuartzInfusion.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-395, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/RapidAssault.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-474, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Raider/WayOfThePoacher.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-553, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/BlindedAssult.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-632, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/BombSpecialist.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-711, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/ChainReaction.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-790, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/DemolitionSpecialist.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-869, -1035)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/ExplosivesExpert.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-0, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/LikeClockworkNotable.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-79, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/PerfectCrime.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-158, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Saboteur/ShadowsDarknessBlind.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-237, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/BaneOfLegends.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-316, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/BrutalFervor.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-395, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/Charges.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-474, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/CriticalAttacks.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-553, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/EndlessHunger.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-632, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/Headman.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-711, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Slayer/Impact.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-790, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/HeedfulRecovery.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-869, -1114)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/ImmuneToDoT.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-0, -1193)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/OneStepAheadTrickster.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-79, -1193)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/PolymathTrickster.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-158, -1193)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/SoulThiefTrickster.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-237, -1193)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/SupressionEnergyShieldTrickster.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-316, -1193)"></use>
+        </symbol>
+        <symbol id="Art/2DArt/SkillIcons/passives/Trickster/UncontrolledVigour.png" viewBox="0 0 79 79">
+          <use xlink:href="#notableInactive" transform="translate(-395, -1193)"></use>
+        </symbol>
+        <symbol id="ClassesAscendant" viewBox="0 0 1224 1224">
+          <use xlink:href="#ascendancyBackground" transform="translate(-0, -0)"></use>
+        </symbol>
+        <symbol id="ClassesTrickster" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-1224, -0)"></use>
+        </symbol>
+        <symbol id="ClassesSlayer" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-0, -1224)"></use>
+        </symbol>
+        <symbol id="ClassesSaboteur" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-1040, -1224)"></use>
+        </symbol>
+        <symbol id="ClassesRaider" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-2264, -0)"></use>
+        </symbol>
+        <symbol id="ClassesPathfinder" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-2264, -1040)"></use>
+        </symbol>
+        <symbol id="ClassesOccultist" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-0, -2264)"></use>
+        </symbol>
+        <symbol id="ClassesNecromancer" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-1040, -2264)"></use>
+        </symbol>
+        <symbol id="ClassesJuggernaut" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-2080, -2264)"></use>
+        </symbol>
+        <symbol id="ClassesInquisitor" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-3304, -0)"></use>
+        </symbol>
+        <symbol id="ClassesHierophant" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-3304, -1040)"></use>
+        </symbol>
+        <symbol id="ClassesGuardian" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-3304, -2080)"></use>
+        </symbol>
+        <symbol id="ClassesGladiator" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-0, -3304)"></use>
+        </symbol>
+        <symbol id="ClassesElementalist" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-1040, -3304)"></use>
+        </symbol>
+        <symbol id="ClassesDeadeye" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-2080, -3304)"></use>
+        </symbol>
+        <symbol id="ClassesChieftain" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-3120, -3304)"></use>
+        </symbol>
+        <symbol id="ClassesChampion" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-4344, -0)"></use>
+        </symbol>
+        <symbol id="ClassesBerserker" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-4344, -1040)"></use>
+        </symbol>
+        <symbol id="ClassesAssassin" viewBox="0 0 1040 1040">
+          <use xlink:href="#ascendancyBackground" transform="translate(-4344, -2080)"></use>
+        </symbol>
+        <symbol id="AscendancyNamePlaque" viewBox="0 0 304 80">
+          <use xlink:href="#ascendancy" transform="translate(-0, -0)"></use>
+        </symbol>
+        <symbol id="AscendancyFrameLargeNormal" viewBox="0 0 121 121">
+          <use xlink:href="#ascendancy" transform="translate(-0, -80)"></use>
+        </symbol>
+        <symbol id="AscendancyFrameLargeCanAllocate" viewBox="0 0 121 121">
+          <use xlink:href="#ascendancy" transform="translate(-121, -80)"></use>
+        </symbol>
+        <symbol id="AscendancyFrameLargeAllocated" viewBox="0 0 121 121">
+          <use xlink:href="#ascendancy" transform="translate(-304, -0)"></use>
+        </symbol>
+        <symbol id="AscendancyFrameSmallNormal" viewBox="0 0 82 82">
+          <use xlink:href="#ascendancy" transform="translate(-0, -201)"></use>
+        </symbol>
+        <symbol id="AscendancyFrameSmallCanAllocate" viewBox="0 0 82 82">
+          <use xlink:href="#ascendancy" transform="translate(-82, -201)"></use>
+        </symbol>
+        <symbol id="AscendancyFrameSmallAllocated" viewBox="0 0 82 82">
+          <use xlink:href="#ascendancy" transform="translate(-164, -201)"></use>
+        </symbol>
+        <symbol id="AscendancyMiddle" viewBox="0 0 64 64">
+          <use xlink:href="#ascendancy" transform="translate(-304, -121)"></use>
+        </symbol>
+        <clipPath id="background-clip" clipPathUnits="userSpaceOnUse">
+          <circle cx="337.5" cy="350" r="337.5"></circle>
+        </clipPath>
+    </defs>
+    <g>
+      <!-- frame -->
+      <use xlink:href="#ClassesNecromancer" x="0" y="0" width="675" height="700" clip-path="url(#background-clip)"></use>
+      <use xlink:href="#AscendancyNamePlaque" x="238.11682242990656" y="0" width="199.7663551401869" height="52.570093457943926"></use>
+      <text text-anchor="middle" fill="#7CB29C" x="338" y="32.856308411214954" class="FontinItalic" style="font-size: 18px; font-style: italic; paint-order: stroke; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke: #525252; user-select: none;">Necromancer</text>
+      <!-- flavour text -->
+      
+            <text fill="rgb(154,195,201)" x="378.50467289719626" y="159.2873831775701" width="525.7009345794393" height="525.7009345794393" class="FontinItalic" style=" font-size: 24px; font-style: italic; paint-order: stroke; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke: black; font-weight: normal; user-select: none; ;">
+                <tspan x="378.50467289719626" y="195.2873831775701">Embrace&nbsp;the&nbsp;serene&nbsp;</tspan>
+<tspan x="378.50467289719626" y="219.2873831775701">power&nbsp;that&nbsp;is&nbsp;undeath.</tspan>
+            </text>
+            
+      <!-- draw lines -->
+      <line x1="155" y1="538" x2="185" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="155" y1="538" x2="185" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="162" y1="354" x2="94" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="162" y1="354" x2="94" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="162" y1="354" x2="338" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="162" y1="354" x2="338" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="491" y1="443" x2="521" y2="538" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="491" y1="443" x2="521" y2="538" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="491" y1="443" x2="412" y2="397" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="491" y1="443" x2="412" y2="397" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="427" y1="598" x2="426" y2="507" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="427" y1="598" x2="426" y2="507" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="514" y1="354" x2="593" y2="309" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="514" y1="354" x2="593" y2="309" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="514" y1="354" x2="338" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="514" y1="354" x2="338" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="185" y1="443" x2="155" y2="538" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="185" y1="443" x2="155" y2="538" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="185" y1="443" x2="338" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="185" y1="443" x2="338" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="521" y1="538" x2="582" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="521" y1="538" x2="582" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="521" y1="538" x2="491" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="521" y1="538" x2="491" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="582" y1="443" x2="521" y2="538" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="582" y1="443" x2="521" y2="538" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="440" x2="338" y2="531" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="440" x2="338" y2="531" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="440" x2="338" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="440" x2="338" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="94" y1="443" x2="162" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="94" y1="443" x2="162" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="250" y1="507" x2="249" y2="598" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="250" y1="507" x2="249" y2="598" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="250" y1="507" x2="338" y2="531" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="250" y1="507" x2="338" y2="531" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="593" y1="309" x2="514" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="593" y1="309" x2="514" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="531" x2="250" y2="507" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="531" x2="250" y2="507" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="531" x2="426" y2="507" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="531" x2="426" y2="507" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="531" x2="338" y2="440" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="531" x2="338" y2="440" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="426" y1="507" x2="338" y2="531" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="426" y1="507" x2="338" y2="531" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="426" y1="507" x2="427" y2="598" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="426" y1="507" x2="427" y2="598" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="412" y1="397" x2="491" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="412" y1="397" x2="491" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="412" y1="397" x2="338" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="412" y1="397" x2="338" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="354" x2="338" y2="440" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="354" x2="338" y2="440" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="354" x2="412" y2="397" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="354" x2="412" y2="397" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="354" x2="514" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="354" x2="514" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="354" x2="185" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="354" x2="185" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="354" x2="162" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="354" x2="162" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="249" y1="598" x2="250" y2="507" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="249" y1="598" x2="250" y2="507" style="stroke-width: 2px; stroke: #231c0c"></line>
+      <!-- draw icons -->
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/EssenceGlutton.png" filter="url(#Darken)" x="127" y="510" width="56" height="56" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-3554" data-node="3554" x="115" y="498" width="80" height="80" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/IncreasedMinionDamageIncreasedSkillDuration.png" filter="url(#Darken)" x="143" y="335" width="38" height="38" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-5415" data-node="5415" x="135" y="327" width="54" height="54" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/PlagueBringer.png" filter="url(#Darken)" x="463" y="415" width="56" height="56" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-11490" data-node="11490" x="451" y="403" width="80" height="80" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/DefensiveMinionNotable.png" filter="url(#Darken)" x="399" y="570" width="56" height="56" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-14603" data-node="14603" x="387" y="558" width="80" height="80" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/IncreasedMinionDamageIncreasedMinionLife.png" filter="url(#Darken)" x="495" y="335" width="38" height="38" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-18309" data-node="18309" x="487" y="327" width="54" height="54" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/ManaNode.png" filter="url(#Darken)" x="166" y="424" width="38" height="38" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-18574" data-node="18574" x="158" y="416" width="54" height="54" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/CorpseConsumptionNode.png" filter="url(#Darken)" x="502" y="519" width="38" height="38" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-23509" data-node="23509" x="494" y="511" width="54" height="54" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/CorpseConsumptionNotable2.png" filter="url(#Darken)" x="554" y="415" width="56" height="56" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-23572" data-node="23572" x="542" y="403" width="80" height="80" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/CorpseConsumptionNode.png" filter="url(#Darken)" x="319" y="421" width="38" height="38" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-26298" data-node="26298" x="311" y="413" width="54" height="54" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/CommandingTheDarkness.png" filter="url(#Darken)" x="66" y="415" width="56" height="56" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-36017" data-node="36017" x="54" y="403" width="80" height="80" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/IncreasedMinionDamageIncreasedSkillDuration.png" filter="url(#Darken)" x="231" y="488" width="38" height="38" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-39818" data-node="39818" x="223" y="480" width="54" height="54" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/GiftsOfTheDamned.png" filter="url(#Darken)" x="565" y="281" width="56" height="56" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-48719" data-node="48719" x="553" y="269" width="80" height="80" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/GenericMinionNotable.png" filter="url(#Darken)" x="310" y="503" width="56" height="56" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-54159" data-node="54159" x="298" y="491" width="80" height="80" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/IncreasedMinionDamageIncreasedMinionLife.png" filter="url(#Darken)" x="407" y="488" width="38" height="38" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-55646" data-node="55646" x="399" y="480" width="54" height="54" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/IncreasedMinionDamageIncreasedMinionLife.png" filter="url(#Darken)" x="393" y="378" width="38" height="38" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-60547" data-node="60547" x="385" y="370" width="54" height="54" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          <use xlink:href="#AscendancyMiddle" class="node node-60791" data-node="60791" x="319" y="335" width="38" height="38" opacity="1"></use>
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/OffensiveMinionNotable.png" filter="url(#Darken)" x="221" y="570" width="56" height="56" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-65153" data-node="65153" x="209" y="558" width="80" height="80" opacity="1"></use>
+            
+      </g>
+    </g>
+</svg>
