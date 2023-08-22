@@ -9,6 +9,8 @@ const Task = () => {
 
   const [classes, setClasses] = useState([]);
 
+  const [selectedClass, setActiveClass] = useState(null);
+
   useEffect(() => {
     if (selected) {
       const currentJob = jobs.find((job) => job.id === selected);
@@ -51,21 +53,26 @@ const Task = () => {
         })}
       </ul>
       <div className="carousel flex">
-        {/* <button
-          v-for="(cate, index) in cates"
-          :key="cate.code"
-          class="gametype side reset"
-          :class="{ center: gameType === cate.type }"
-          :style="styleArray[index]"
-          @click="$emit('set-cate', cate.type)"
-        >
-          <span
-            class="gameUnit"
-            :style="{
-              backgroundImage: `url(${imgBaseUrl}/images/cates/content_${cate.type}.png)`,
-            }"
-          ></span>
-        </button> */}
+        {classes?.length
+          ? classes.map((item, index) => {
+              return (
+                <button
+                  key={`class${index}`}
+                  className={`gametype side reset ${
+                    selectedClass === item ? 'center' : ''
+                  }`}
+                  // :style="styleArray[index]"
+                  // @click="$emit('set-cate', cate.type)"
+                >
+                  <iframe
+                    src={`/images/classes/${item}.svg`}
+                    width="500"
+                    height="500"
+                  ></iframe>
+                </button>
+              );
+            })
+          : ''}
       </div>
     </div>
   );

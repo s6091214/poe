@@ -1465,178 +1465,159 @@
     </defs>
     <g>
       <!-- frame -->
-      <use xlink:href="#ClassesNecromancer" x="0" y="0" width="675" height="700" clip-path="url(#background-clip)"></use>
+      <use xlink:href="#ClassesOccultist" x="0" y="0" width="675" height="700" clip-path="url(#background-clip)"></use>
       <use xlink:href="#AscendancyNamePlaque" x="238.11682242990656" y="0" width="199.7663551401869" height="52.570093457943926"></use>
-      <text text-anchor="middle" fill="#7CB29C" x="338" y="32.856308411214954" class="FontinItalic" style="font-size: 18px; font-style: italic; paint-order: stroke; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke: #525252; user-select: none;">死靈師</text>
+      <text text-anchor="middle" fill="#7CB29C" x="338" y="32.856308411214954" class="FontinItalic" style="font-size: 18px; font-style: italic; paint-order: stroke; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke: #525252; user-select: none;">秘術家</text>
       <!-- flavour text -->
       
-            <text fill="rgb(154,195,201)" x="378.50467289719626" y="159.2873831775701" width="525.7009345794393" height="525.7009345794393" class="FontinItalic" style=" font-size: 19px; font-style: italic; paint-order: stroke; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke: black; font-weight: normal; user-select: none; ;">
-                <tspan x="378.50467289719626" y="192.7873831775701">擁抱沉寂的不死之力。</tspan>
+            <text fill="rgb(154,195,201)" x="349.59112149532706" y="202.3948598130841" width="476.28504672897196" height="204.49766355140187" class="FontinItalic" style=" font-size: 24px; font-style: italic; paint-order: stroke; stroke-width: 1px; stroke-linecap: butt; stroke-linejoin: miter; stroke: black; font-weight: normal; user-select: none; ;">
+                <tspan x="349.59112149532706" y="238.3948598130841">拋開恐懼的枷鎖，</tspan>
+<tspan x="349.59112149532706" y="262.3948598130841">擁抱禁忌的秘術。</tspan>
             </text>
             
       <!-- draw lines -->
-      <line x1="155" y1="538" x2="185" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="155" y1="538" x2="185" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="162" y1="354" x2="94" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="162" y1="354" x2="94" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="162" y1="354" x2="338" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="162" y1="354" x2="338" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="491" y1="443" x2="521" y2="538" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="491" y1="443" x2="521" y2="538" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="491" y1="443" x2="412" y2="397" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="491" y1="443" x2="412" y2="397" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="427" y1="598" x2="426" y2="507" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="427" y1="598" x2="426" y2="507" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="514" y1="354" x2="593" y2="309" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="514" y1="354" x2="593" y2="309" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="514" y1="354" x2="338" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="514" y1="354" x2="338" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="185" y1="443" x2="155" y2="538" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="185" y1="443" x2="155" y2="538" style="stroke-width: 2px; stroke: #231c0c"></line>
+      <line x1="491" y1="443" x2="582" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="491" y1="443" x2="582" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="491" y1="443" x2="338" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="491" y1="443" x2="338" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="185" y1="443" x2="94" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="185" y1="443" x2="94" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
 <line x1="185" y1="443" x2="338" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
 <line x1="185" y1="443" x2="338" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="521" y1="538" x2="582" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="521" y1="538" x2="582" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="521" y1="538" x2="491" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="521" y1="538" x2="491" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="582" y1="443" x2="521" y2="538" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="582" y1="443" x2="521" y2="538" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="354" x2="426" y2="507" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="354" x2="426" y2="507" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="354" x2="491" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="354" x2="491" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="354" x2="250" y2="507" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="354" x2="250" y2="507" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="354" x2="338" y2="440" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="354" x2="338" y2="440" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="354" x2="185" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="354" x2="185" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="208" y1="579" x2="293" y2="610" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="208" y1="579" x2="293" y2="610" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="531" x2="293" y2="610" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="531" x2="293" y2="610" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="531" x2="383" y2="610" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="531" x2="383" y2="610" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="338" y1="531" x2="338" y2="440" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="338" y1="531" x2="338" y2="440" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="293" y1="610" x2="208" y2="579" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="293" y1="610" x2="208" y2="579" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="293" y1="610" x2="338" y2="531" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="293" y1="610" x2="338" y2="531" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="94" y1="443" x2="185" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="94" y1="443" x2="185" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="250" y1="507" x2="139" y2="521" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="250" y1="507" x2="139" y2="521" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="250" y1="507" x2="338" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="250" y1="507" x2="338" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
 <line x1="338" y1="440" x2="338" y2="531" style="stroke-width: 5px; stroke: #746543"></line>
 <line x1="338" y1="440" x2="338" y2="531" style="stroke-width: 2px; stroke: #231c0c"></line>
 <line x1="338" y1="440" x2="338" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
 <line x1="338" y1="440" x2="338" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="94" y1="443" x2="162" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="94" y1="443" x2="162" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="250" y1="507" x2="249" y2="598" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="250" y1="507" x2="249" y2="598" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="250" y1="507" x2="338" y2="531" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="250" y1="507" x2="338" y2="531" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="593" y1="309" x2="514" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="593" y1="309" x2="514" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="338" y1="531" x2="250" y2="507" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="338" y1="531" x2="250" y2="507" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="338" y1="531" x2="426" y2="507" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="338" y1="531" x2="426" y2="507" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="338" y1="531" x2="338" y2="440" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="338" y1="531" x2="338" y2="440" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="426" y1="507" x2="338" y2="531" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="426" y1="507" x2="338" y2="531" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="426" y1="507" x2="427" y2="598" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="426" y1="507" x2="427" y2="598" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="412" y1="397" x2="491" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="412" y1="397" x2="491" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="412" y1="397" x2="338" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="412" y1="397" x2="338" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="338" y1="354" x2="338" y2="440" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="338" y1="354" x2="338" y2="440" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="338" y1="354" x2="412" y2="397" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="338" y1="354" x2="412" y2="397" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="338" y1="354" x2="514" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="338" y1="354" x2="514" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="338" y1="354" x2="185" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="338" y1="354" x2="185" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="338" y1="354" x2="162" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="338" y1="354" x2="162" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
-<line x1="249" y1="598" x2="250" y2="507" style="stroke-width: 5px; stroke: #746543"></line>
-<line x1="249" y1="598" x2="250" y2="507" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="139" y1="521" x2="250" y2="507" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="139" y1="521" x2="250" y2="507" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="537" y1="521" x2="426" y2="507" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="537" y1="521" x2="426" y2="507" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="383" y1="610" x2="468" y2="579" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="383" y1="610" x2="468" y2="579" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="383" y1="610" x2="338" y2="531" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="383" y1="610" x2="338" y2="531" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="468" y1="579" x2="383" y2="610" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="468" y1="579" x2="383" y2="610" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="426" y1="507" x2="537" y2="521" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="426" y1="507" x2="537" y2="521" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="426" y1="507" x2="338" y2="354" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="426" y1="507" x2="338" y2="354" style="stroke-width: 2px; stroke: #231c0c"></line>
+<line x1="582" y1="443" x2="491" y2="443" style="stroke-width: 5px; stroke: #746543"></line>
+<line x1="582" y1="443" x2="491" y2="443" style="stroke-width: 2px; stroke: #231c0c"></line>
       <!-- draw icons -->
         <g class="node-group">
           
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/EssenceGlutton.png" filter="url(#Darken)" x="127" y="510" width="56" height="56" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-3554" data-node="3554" x="115" y="498" width="80" height="80" opacity="1"></use>
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Occultist/IncreasedEnergyShieldCriticalStrikeChance.png" filter="url(#Darken)" x="472" y="424" width="38" height="38" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-6728" data-node="6728" x="464" y="416" width="54" height="54" opacity="1"></use>
             
       </g>
         <g class="node-group">
           
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/IncreasedMinionDamageIncreasedSkillDuration.png" filter="url(#Darken)" x="143" y="335" width="38" height="38" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-5415" data-node="5415" x="135" y="327" width="54" height="54" opacity="1"></use>
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Occultist/IncreasedEnergyShieldManaReservation.png" filter="url(#Darken)" x="166" y="424" width="38" height="38" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-17018" data-node="17018" x="158" y="416" width="54" height="54" opacity="1"></use>
+            
+      </g>
+        <g class="node-group">
+          <use xlink:href="#AscendancyMiddle" class="node node-18378" data-node="18378" x="319" y="335" width="38" height="38" opacity="1"></use>
+      </g>
+        <g class="node-group">
+          
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Occultist/WitheringPresence.png" filter="url(#Darken)" x="180" y="551" width="56" height="56" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-25309" data-node="25309" x="168" y="539" width="80" height="80" opacity="1"></use>
             
       </g>
         <g class="node-group">
           
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/PlagueBringer.png" filter="url(#Darken)" x="463" y="415" width="56" height="56" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-11490" data-node="11490" x="451" y="403" width="80" height="80" opacity="1"></use>
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Occultist/VoidBeacon.png" filter="url(#Darken)" x="310" y="503" width="56" height="56" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-27096" data-node="27096" x="298" y="491" width="80" height="80" opacity="1"></use>
             
       </g>
         <g class="node-group">
           
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/DefensiveMinionNotable.png" filter="url(#Darken)" x="399" y="570" width="56" height="56" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-14603" data-node="14603" x="387" y="558" width="80" height="80" opacity="1"></use>
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Occultist/EnergyShieldChaos.png" filter="url(#Darken)" x="274" y="591" width="38" height="38" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-31316" data-node="31316" x="266" y="583" width="54" height="54" opacity="1"></use>
             
       </g>
         <g class="node-group">
           
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/IncreasedMinionDamageIncreasedMinionLife.png" filter="url(#Darken)" x="495" y="335" width="38" height="38" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-18309" data-node="18309" x="487" y="327" width="54" height="54" opacity="1"></use>
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Occultist/FatefulEchoes.png" filter="url(#Darken)" x="66" y="415" width="56" height="56" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-31344" data-node="31344" x="54" y="403" width="80" height="80" opacity="1"></use>
             
       </g>
         <g class="node-group">
           
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/ManaNode.png" filter="url(#Darken)" x="166" y="424" width="38" height="38" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-18574" data-node="18574" x="158" y="416" width="54" height="54" opacity="1"></use>
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Occultist/IncreasedEnergyShieldManaReservation.png" filter="url(#Darken)" x="231" y="488" width="38" height="38" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-31984" data-node="31984" x="223" y="480" width="54" height="54" opacity="1"></use>
             
       </g>
         <g class="node-group">
           
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/CorpseConsumptionNode.png" filter="url(#Darken)" x="502" y="519" width="38" height="38" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-23509" data-node="23509" x="494" y="511" width="54" height="54" opacity="1"></use>
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Occultist/IncreasedEnergyShieldAttackAndCastSpeed.png" filter="url(#Darken)" x="319" y="421" width="38" height="38" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-32417" data-node="32417" x="311" y="413" width="54" height="54" opacity="1"></use>
             
       </g>
         <g class="node-group">
           
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/CorpseConsumptionNotable2.png" filter="url(#Darken)" x="554" y="415" width="56" height="56" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-23572" data-node="23572" x="542" y="403" width="80" height="80" opacity="1"></use>
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Occultist/LotusExtract.png" filter="url(#Darken)" x="111" y="493" width="56" height="56" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-37127" data-node="37127" x="99" y="481" width="80" height="80" opacity="1"></use>
             
       </g>
         <g class="node-group">
           
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/CorpseConsumptionNode.png" filter="url(#Darken)" x="319" y="421" width="38" height="38" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-26298" data-node="26298" x="311" y="413" width="54" height="54" opacity="1"></use>
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Occultist/SoulCatalyst.png" filter="url(#Darken)" x="509" y="493" width="56" height="56" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-37492" data-node="37492" x="497" y="481" width="80" height="80" opacity="1"></use>
             
       </g>
         <g class="node-group">
           
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/CommandingTheDarkness.png" filter="url(#Darken)" x="66" y="415" width="56" height="56" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-36017" data-node="36017" x="54" y="403" width="80" height="80" opacity="1"></use>
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Occultist/EnergyShieldCold.png" filter="url(#Darken)" x="364" y="591" width="38" height="38" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-43242" data-node="43242" x="356" y="583" width="54" height="54" opacity="1"></use>
             
       </g>
         <g class="node-group">
           
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/IncreasedMinionDamageIncreasedSkillDuration.png" filter="url(#Darken)" x="231" y="488" width="38" height="38" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-39818" data-node="39818" x="223" y="480" width="54" height="54" opacity="1"></use>
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Occultist/FrigidWake.png" filter="url(#Darken)" x="440" y="551" width="56" height="56" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-47630" data-node="47630" x="428" y="539" width="80" height="80" opacity="1"></use>
             
       </g>
         <g class="node-group">
           
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/GiftsOfTheDamned.png" filter="url(#Darken)" x="565" y="281" width="56" height="56" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-48719" data-node="48719" x="553" y="269" width="80" height="80" opacity="1"></use>
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Occultist/IncreasedEnergyShieldMaximumMana.png" filter="url(#Darken)" x="407" y="488" width="38" height="38" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-48124" data-node="48124" x="399" y="480" width="54" height="54" opacity="1"></use>
             
       </g>
         <g class="node-group">
           
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/GenericMinionNotable.png" filter="url(#Darken)" x="310" y="503" width="56" height="56" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-54159" data-node="54159" x="298" y="491" width="80" height="80" opacity="1"></use>
-            
-      </g>
-        <g class="node-group">
-          
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/IncreasedMinionDamageIncreasedMinionLife.png" filter="url(#Darken)" x="407" y="488" width="38" height="38" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-55646" data-node="55646" x="399" y="480" width="54" height="54" opacity="1"></use>
-            
-      </g>
-        <g class="node-group">
-          
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/IncreasedMinionDamageIncreasedMinionLife.png" filter="url(#Darken)" x="393" y="378" width="38" height="38" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameSmallNormal" class="node node-60547" data-node="60547" x="385" y="370" width="54" height="54" opacity="1"></use>
-            
-      </g>
-        <g class="node-group">
-          <use xlink:href="#AscendancyMiddle" class="node node-60791" data-node="60791" x="319" y="335" width="38" height="38" opacity="1"></use>
-      </g>
-        <g class="node-group">
-          
-            <use xlink:href="#Art/2DArt/SkillIcons/passives/Necromancer/OffensiveMinionNotable.png" filter="url(#Darken)" x="221" y="570" width="56" height="56" opacity="1"></use>
-            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-65153" data-node="65153" x="209" y="558" width="80" height="80" opacity="1"></use>
+            <use xlink:href="#Art/2DArt/SkillIcons/passives/Occultist/VowOfDamnation.png" filter="url(#Darken)" x="554" y="415" width="56" height="56" opacity="1"></use>
+            <use xlink:href="#AscendancyFrameLargeNormal" class="node node-62504" data-node="62504" x="542" y="403" width="80" height="80" opacity="1"></use>
             
       </g>
     </g>

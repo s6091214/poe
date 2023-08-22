@@ -1,31 +1,31 @@
 [
   {
     "name": "Marauder",
-    "img": "/images/classes/marauder.png"
+    "img": "/images/jobs/marauder.png"
   },
   {
     "name": "Ranger",
-    "img": "/images/classes/ranger.png"
+    "img": "/images/jobs/ranger.png"
   },
   {
     "name": "Duelist",
-    "img": "/images/classes/duelist.png"
+    "img": "/images/jobs/duelist.png"
   },
   {
     "name": "Witch",
-    "img": "/images/classes/witch.png",
-    "classes": ["Necromancer"]
+    "img": "/images/jobs/witch.png",
+    "classes": ["Necromancer", "Occultist", "Elementalist"]
   },
   {
     "name": "Templar",
-    "img": "/images/classes/templar.png"
+    "img": "/images/jobs/templar.png"
   },
   {
     "name": "Shadow",
-    "img": "/images/classes/shadow.png"
+    "img": "/images/jobs/shadow.png"
   },
   {
     "name": "Scion",
-    "img": "/images/classes/scion.png"
+    "img": "/images/jobs/scion.png"
   }
 ]
