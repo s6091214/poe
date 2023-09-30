@@ -1,0 +1,36 @@
+.carousel {
+  min-width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+  justify-content: space-around;
+  margin-right: 0;
+  margin-left: 0;
+  flex-wrap: nowrap;
+  overflow-x: visible;
+  padding: 130px 0;
+}
+
+@media screen and (max-width: 992px) {
+  .carousel {
+    display: none;
+  }
+}
+
+.gametype {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 5;
+  width: 337px;
+  height: 350px;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+
+.gametype.center {
+  overflow: visible !important;
+}
